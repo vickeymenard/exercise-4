@@ -1,0 +1,10 @@
+/* This file imports all of your partials to be compiled into one styelsheet,
+which you can then attach to your html. */
+
+// Imports variables, mixins and other modules
+@import "base";
+@import "mixins";
+
+// Component rules
+
+@import "components/main";
