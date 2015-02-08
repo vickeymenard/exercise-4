@@ -40,13 +40,13 @@ body {
   padding: 30px;
   font-family: Arial, sans-serif;
   font-weight: 300;
-  background-color: #9C9B7A; }
+  background-color: #2f2933; }
 
 /* line 29, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 h1 {
   text-align: center;
   padding-top: 1em;
-  color: #2f2933;
+  color: #ffffa6;
   font-size: 50px; }
 
 /* line 36, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
@@ -65,7 +65,7 @@ figure {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border: 10px solid #9C9B7A; }
+  border: 10px solid #2f2933; }
 
 /* line 54, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 figure img {
@@ -84,76 +84,45 @@ figcaption {
   top: -250px;
   left: 0;
   margin: 0;
-  padding: 5px;
-  width: 60%;
+  padding: 20px;
+  width: 70%;
   max-width: 90%;
-  height: 60%;
+  height: auto;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.6);
+  background: #2f2933;
   border-radius: 0 5px 5px 0;
   -moz-border-radius: 0 5px 5px 0;
   -webkit-border-radius: 0 5px 5px 0;
-  transition: 0.3s ease all; }
+  transition: 0.3s ease all;
+  opacity: 0.8; }
 
-/* line 90, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
-figcaption h2, p {
+/* line 92, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+figcaption h2 {
   font-family: Arial, sans-serif;
-  color: #fff;
-  text-shadow: 0 1px 0 #000; }
+  color: #01a2a6; }
 
-/* line 96, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+/* line 97, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+figcaption p {
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  color: white; }
+
+/* line 103, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 figcaption a {
   text-decoration: none;
-  color: #0cf; }
+  color: #ffffa6; }
 
-/* line 101, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+/* line 108, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 figcaption a:hover {
   text-decoration: underline;
-  color: #09f; }
+  color: white; }
 
-/* line 106, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+/* line 113, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 figcaption a:active {
   text-decoration: none;
   color: #06f; }
 
-/* line 111, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+/* line 118, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 .imgbox:hover figcaption {
   visibility: visible;
   top: 100px; }
-
-/*
-figcaption{
-	position: absolute;
-	width: auto;
-	height: 75px;
-  background: rgba(89,223,180,.8);
-  margin: 10px;
-
-  opacity: 0;
-  bottom: 0;
-  left: 3px;
-}
-
-figure:hover figcaption{
-	opacity: 1;
-}
-
-h2{
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	margin: 0;
-	text-transform: uppercase;
-	font-weight: 600;
-	color: #272727;
-}
-
-h3 {
-	padding-bottom: 10px;
-	padding-left: 10px;
-	margin: 0;
-	color: #e7e7e7;
-	font-weight: 300;
-}
-
-*/
