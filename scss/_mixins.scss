@@ -1,16 +1,17 @@
 /* This file contains all our Mixins */
 
-@mixin figcaption h2($color){
+@mixin figcaption-h2($color){
   font-family: Arial, sans-serif;
   color: $color;
 }
 
-@mixin figcaption p($color){
+@mixin figcaption-h3($color){
 	font-family: Arial, sans-serif;
+  font-size: 16px;
 	color: $color;
 }
 
-@mixin figcaption a($color, $hover-color){
+@mixin figcaption-a($color, $hover-color){
   text-decoration:none;
   color: $color;
   &:hover {

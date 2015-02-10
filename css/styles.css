@@ -97,32 +97,65 @@ figcaption {
   opacity: 0.8; }
 
 /* line 92, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
-figcaption h2 {
+.cap-1 {
   font-family: Arial, sans-serif;
   color: #01a2a6; }
+  /* line 94, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+  .cap-1 h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white; }
+  /* line 97, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+  .cap-1 a {
+    text-decoration: none;
+    color: #29d9c2; }
+    /* line 17, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/mixins */
+    .cap-1 a:hover {
+      text-decoration: underline;
+      color: white; }
 
-/* line 97, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
-figcaption p {
+/* line 102, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+.cap-2 {
   font-family: Arial, sans-serif;
-  font-weight: 300;
-  color: white; }
+  color: #bdf271; }
+  /* line 104, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+  .cap-2 h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white; }
+  /* line 107, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+  .cap-2 a {
+    text-decoration: none;
+    color: #bdf271; }
+    /* line 17, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/mixins */
+    .cap-2 a:hover {
+      text-decoration: underline;
+      color: white; }
 
-/* line 103, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
-figcaption a {
-  text-decoration: none;
-  color: #ffffa6; }
+/* line 112, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+.cap-3 {
+  font-family: Arial, sans-serif;
+  color: #29d9c2; }
+  /* line 114, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+  .cap-3 h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white; }
+  /* line 117, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+  .cap-3 a {
+    text-decoration: none;
+    color: #01a2a6; }
+    /* line 17, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/mixins */
+    .cap-3 a:hover {
+      text-decoration: underline;
+      color: white; }
 
-/* line 108, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
-figcaption a:hover {
-  text-decoration: underline;
-  color: white; }
-
-/* line 113, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+/* line 122, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 figcaption a:active {
   text-decoration: none;
   color: #06f; }
 
-/* line 118, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
+/* line 127, /Users/vickeymenard/Documents/Graphic design/Year 3/semester 2/Web Dev/exercise-4/scss/components/main */
 .imgbox:hover figcaption {
   visibility: visible;
   top: 100px; }
